@@ -1,0 +1,20 @@
+[
+    {
+        "No": 1,
+        "Item": "Maggi Curry Flavour (5 packets per pack)",
+        "Price": 6.0,
+        "Quantity": "1"
+    },
+    {
+        "No": 2,
+        "Item": "Massimo Bread Chocolate Flavour (550g) ",
+        "Price": 5.6,
+        "Quantity": "1"
+    },
+    {
+        "No": 3,
+        "Item": "Ayam Brands Sardin (500g)",
+        "Price": 8.0,
+        "Quantity": "1 tin"
+    }
+]
