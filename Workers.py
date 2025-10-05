@@ -2,7 +2,7 @@ import json
 import os
 from tabulate import tabulate
 
-ITEMS_FILE = "items.json"
+ITEMS_FILE = "Supermarket/items.json"
 
 def load_items():
     if os.path.exists(ITEMS_FILE):

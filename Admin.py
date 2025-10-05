@@ -2,8 +2,8 @@ import json
 import os
 from tabulate import tabulate
 
-ITEMS_FILE = "items.json"
-WORKERS_FILE = "workers.json"
+ITEMS_FILE = "Supermarket/items.json"
+WORKERS_FILE = "Supermarket/workers.json"
 
 # ========== ITEM MANAGEMENT ==========
 

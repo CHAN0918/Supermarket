@@ -2,7 +2,7 @@ import json
 import os
 import getpass
 
-ADMINS_FILE = "admins.json"
+ADMINS_FILE = "Supermarket/admins.json"
 
 def load_admins():
     if os.path.exists(ADMINS_FILE):

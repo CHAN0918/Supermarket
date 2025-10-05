@@ -4,8 +4,8 @@ import getpass
 import subprocess
 
 # File paths
-ADMIN_FILE = "admins.json"
-WORKER_FILE = "workers.json"
+ADMIN_FILE = "Supermarket/admins.json"
+WORKER_FILE = "Supermarket/workers.json"
 
 def load_users(file_path):
     if os.path.exists(file_path):
@@ -25,7 +25,7 @@ def login_admin():
         for user in users:
             if user["username"] == username and user["password"] == password:
                 print("✅ Admin login successful!")
-                subprocess.run(["python", "admin.py"])
+                subprocess.run(["python", "Supermarket/Admin.py"])
                 return
         print("❌ Invalid admin credentials. Please try again.")
 
@@ -41,7 +41,7 @@ def login_worker():
         for user in users:
             if user["username"] == username and user["password"] == password:
                 print("✅ Worker login successful!")
-                subprocess.run(["python", "workers.py"])
+                subprocess.run(["python", "Supermarket/workers.py"])
                 return
         print("❌ Invalid worker credentials. Please try again.")
 
@@ -60,7 +60,7 @@ def main_menu():
         elif choice == "2":
             login_worker()
         elif choice == "3":
-            subprocess.run(["python", "Customer.py"])
+            subprocess.run(["python", "Supermarket/Customer.py"])
         elif choice == "4":
             print("👋 Goodbye!")
             break
